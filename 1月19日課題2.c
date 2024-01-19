@@ -14,10 +14,10 @@ int main() {
 	else if (C > I && C > S)
 		printf("あなたは「thief」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
 	else if (I == S && I > C)
-		printf("あなたは「special character」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
+		printf("あなたは「legend」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
 	else if (I == C && I > S)
-		printf("あなたは「special character」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
+		printf("あなたは「legend」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
 	else if (S == C && S > I)
-		printf("あなたは「special character」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
+		printf("あなたは「legend」です。ステータスはinteligence:%d stamina:%d charisma:%d です。", I, S, C);
 
 }
