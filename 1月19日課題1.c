@@ -3,7 +3,7 @@
 
 int main() {
 	int a = 0, b = 0, c = 0;
-	printf("a,b,cの値を入力してください。\n");
+	printf("a,b,cの値を一つずつ入力してください。このときaは0以外で入力してください。\n");
 	scanf_s("%d %d %d", &a, &b, &c);
 	while (a == 0) {
 		printf("0以外の値を入力してください。\n");
